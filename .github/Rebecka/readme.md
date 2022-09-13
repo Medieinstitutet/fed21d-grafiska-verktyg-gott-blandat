@@ -10,3 +10,5 @@ Detsamma gäller för länkar. </p>
 <p>Knappen för att öppna och stänga navigering har en animation på hovereffect där linjerna blir raka vid hover och bildar ett kryss när man öppnar menyn. 
 Hur detta ser ut finns i Figma under desktop i framen "meny-knapp" 
 Denna animation sker bara i desktop läge när man hovrar ej i tablet eller mobilvy.  </p>
+
+<p><b>GreenSock animation för knappen "boka vistelse" knappen ska komma in från vänster till höger när sidan öppnas med en delay på 2 sekunder. Använd easeIn med bounce för detta. Dokumentation om detta finns <a href="https://greensock.com/get-started/">HÄR</a></b></p>
