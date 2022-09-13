@@ -10,3 +10,7 @@ När jag tänker på Karibien så tänker jag på hav, klar himmer och sandsträ
 
 <p>Jag ville skapa en känsla av att vara vid havet och skapade därför former av vågor på flera ställen i designen. Mina bilder och knappar är rundade för att fortsatt skapa känslan av semester. </p>
 <p>Alla mina bakgrundssymboler och menyn är fyrkantig för att samtidigt visa på att hotellet är ett seriöst hotell. Jag har försökt skapa en blandning som passar i designen och i känslan jag försökt få fram. </p>
+
+<h2>Kirill Missarov</h2>
+<h3>Om designen: </h3>
+<p></p>
