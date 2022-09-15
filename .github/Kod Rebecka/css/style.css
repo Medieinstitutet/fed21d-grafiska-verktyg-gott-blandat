@@ -599,7 +599,32 @@ nav {
   width: 100vw;
   height: 100vh;
   display: block;
-  background-color: green;
+  background-color: #fcff5c;
+  opacity: 0.9;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 50vh;
+  margin-top: 36%;
+  list-style: none;
+  color: #000;
+}
+
+nav ul #newText {
+  color: #cb1838;
 }
 
 main {
@@ -760,5 +785,9 @@ footer ul li a {
   width: 280px;
   font-size: 36px;
   text-transform: none;
+}
+
+#nav {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
