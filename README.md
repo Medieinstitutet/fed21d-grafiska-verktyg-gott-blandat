@@ -13,4 +13,4 @@ När jag tänker på Karibien så tänker jag på hav, klar himmer och sandsträ
 
 <h2>Kirill Missarov</h2>
 <h3>Om designen: </h3>
-<p></p>
+<p>I brist på fantasi valde jag att göra en webshop, med en "futuristisk" twist för att göra det lite roligare för mig själv. Tanken var att webshopen skulle sälja street kläder och accessoarer, därför är designen lite ”edgy” och ”in your face”. Med starka färger, kantiga element och icke raka linjer.</p>
