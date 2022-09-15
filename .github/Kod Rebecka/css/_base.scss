@@ -4,7 +4,7 @@ header {
     background-image: linear-gradient(180deg, $yellow 0%, $yellow 27%, $maingray 27%, $maingray 80%);
     #hamburger {
         width: 40px;
-        height: 30px;
+        height: 40px;
         cursor: pointer;
         .line {
             z-index: 100;
@@ -13,7 +13,8 @@ header {
             height: 0px;
             left: 327px;
 
-            border: 4px solid #242b36;
+            border: 2px solid #242b36;
+            border-radius: 2px;
         }
         #line1 {
             top: 25px;
