@@ -16,7 +16,6 @@ p {
 button {
   -webkit-box-shadow: 4px 4px 0 #000;
           box-shadow: 4px 4px 0 #000;
-  border: 3px solid;
 }
 
 h1 {
@@ -503,39 +502,95 @@ header ul li {
           align-items: center;
   -webkit-box-shadow: 4px 4px 0 #000;
           box-shadow: 4px 4px 0 #000;
-  border: 2px solid #242B36;
+  border: 2px solid #242b36;
 }
 
 nav {
   display: none;
 }
 
-section {
+main {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcff5c), color-stop(30%, #fcff5c), color-stop(30%, #242b36), color-stop(80%, #242b36));
-  background-image: linear-gradient(180deg, #fcff5c 0%, #fcff5c 30%, #242b36 30%, #242b36 80%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcff5c), color-stop(10%, #fcff5c), color-stop(10%, #242b36), color-stop(87%, #242b36), color-stop(87%, #fcff5c), to(#fcff5c));
+  background-image: linear-gradient(180deg, #fcff5c 0%, #fcff5c 10%, #242b36 10%, #242b36 87%, #fcff5c 87%, #fcff5c 100%);
+  padding-bottom: 150px;
 }
 
-section article {
+main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
   position: relative;
   top: 74px;
 }
 
-section article h3 {
+main article h3 {
   text-align: center;
 }
 
-section article h3 #exclusive {
+main article h3 #exclusive {
   font-family: "Inconsolata", monospace;
   color: #cb1838;
 }
 
-section article h3 #collection {
+main article h3 #collection {
   color: #fcff5c;
 }
 
-img {
-  width: 0;
-  height: 0;
+main article img {
+  width: 316px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+  border: 2px solid #000000;
+}
+
+main article p {
+  color: #fcff5c;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 2rem 2rem 2rem;
+}
+
+main article button {
+  width: 249px;
+  height: 51px;
+  text-transform: uppercase;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  border: 2px solid #242B36;
+}
+
+main article .shop {
+  background-color: #242b36;
+  color: #fcff5c;
+  font-size: 36px;
+  margin-top: 4rem;
+}
+
+main article .what-else {
+  font-size: 20px;
+  background-color: #fcff5c;
+  color: #242b36;
+}
+
+.brand-section {
+  display: none;
+}
+
+footer {
+  color: green;
+  background-color: green;
 }
 /*# sourceMappingURL=style.css.map */

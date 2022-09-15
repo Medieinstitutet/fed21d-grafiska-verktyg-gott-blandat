@@ -56,8 +56,7 @@ header {
             justify-content: center;
             align-items: center;
             box-shadow: (4px 4px 0 #000);
-            border: 2px solid #242B36;
-
+            border: 2px solid #242b36;
         }
     }
 }
@@ -71,43 +70,76 @@ nav {
     }
 }
 
-section {
+main {
     position: relative;
-    background-image: linear-gradient(180deg, $yellow 0%, $yellow 30%, $maingray 30%, $maingray 80%);
+    background-image: linear-gradient(
+        180deg,
+        $yellow 0%,
+        $yellow 10%,
+        $maingray 10%,
+        $maingray 87%,
+        $yellow 87%,
+        $yellow 100%
+    );
+    padding-bottom: 150px;
     article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
         position: relative;
-        top:74px;
+        top: 74px;
         h3 {
             text-align: center;
-            #exclusive{
+            #exclusive {
                 font-family: $Insolata;
                 color: $red;
             }
-            #collection{
+            #collection {
                 color: $yellow;
             }
         }
         img {
+            width: 316px;
+            height: 340px;
+            object-fit: cover;
+            object-position: center top;
+            border: 2px solid #000000;
         }
         p {
+            color: $yellow;
+            text-align: center;
+            font-size: 20px;
+            margin: 0 2rem 2rem 2rem;
         }
         button {
+            width: 249px;
+            height: 51px;
+            text-transform: uppercase;
+            font-family: $Insolata;
+            font-weight: 400;
+            letter-spacing: 0.04em;
+            border: 2px solid #242B36;
+        }
+        .shop {
+            background-color: $maingray;
+            color: $yellow;
+            font-size: 36px;
+            margin-top: 4rem;
+        }
+        .what-else {
+            font-size: 20px;
+            background-color: $yellow;
+            color: $maingray;
         }
     }
 }
-section {
-    p {
-    }
-    h4 {
-    }
-    ul {
-        li {
-            img {
-            }
-        }
-    }
+.brand-section {
+    display: none;
 }
 footer {
+    color: green;
+    background-color: green;
     section {
         h5 {
         }
@@ -126,8 +158,4 @@ footer {
     }
     button {
     }
-}
-img {
-    width: 0;
-    height: 0;
 }
