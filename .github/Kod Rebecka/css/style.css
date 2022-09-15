@@ -760,7 +760,7 @@ footer ul li a {
   position: fixed;
   left: 0px;
   top: 379px;
-  width: 375px;
+  width: 100vw;
   height: 288px;
   background-color: #16191e;
   display: -webkit-box;

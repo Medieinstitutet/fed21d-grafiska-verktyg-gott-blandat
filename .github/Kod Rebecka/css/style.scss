@@ -1,16 +1,22 @@
+/////////////////
+/// Variables ///
+/////////////////
 
-//Variables
 //Colors
 $yellow: #fcff5c;
 $maingray: #242b36;
 $red: #cb1838;
 $black: #16191e;
 $orange: #fdcd51;
+
 //Fonts
 $Insolata: "Inconsolata", monospace;
 $Inter: "Inter", sans-serif;
 
-//Standard styles
+///////////////////////
+/// Standard Styles ///
+///////////////////////
+
 body {
     background-color: $maingray;
 }
@@ -24,10 +30,20 @@ a,
 p {
     letter-spacing: 0.04em;
 }
+
+///////////////
+/// Imports ///
+///////////////
+
+// Standard import styles mobile first design
 @import "_normalize";
 @import "graphic-profile-standards";
 @import "_base";
 
+//Specific design for tablet and desktop
+@media screen and (min-width: 1133px) {
+    @import "_desktop";
+}
 @media screen and (min-width: 1200px) {
     @import "_desktop";
 }
