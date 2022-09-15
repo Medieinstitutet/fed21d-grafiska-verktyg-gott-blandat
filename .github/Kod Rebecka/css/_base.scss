@@ -7,7 +7,8 @@ header {
         height: 30px;
         cursor: pointer;
         .line {
-            position: absolute;
+            z-index: 100;
+            position: fixed;
             width: 34px;
             height: 0px;
             left: 327px;
@@ -71,9 +72,20 @@ nav {
 }
 
 section {
+    position: relative;
     background-image: linear-gradient(180deg, $yellow 0%, $yellow 30%, $maingray 30%, $maingray 80%);
     article {
+        position: relative;
+        top:74px;
         h3 {
+            text-align: center;
+            #exclusive{
+                font-family: $Insolata;
+                color: $red;
+            }
+            #collection{
+                color: $yellow;
+            }
         }
         img {
         }
