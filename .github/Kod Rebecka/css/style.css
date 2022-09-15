@@ -590,7 +590,20 @@ main article .what-else {
 }
 
 footer {
-  color: green;
-  background-color: green;
+  color: #fcff5c;
+}
+
+footer section svg {
+  color: #fcff5c;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  color: #fcff5c;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
 }
 /*# sourceMappingURL=style.css.map */

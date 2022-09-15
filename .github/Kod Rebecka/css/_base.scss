@@ -138,17 +138,21 @@ main {
     display: none;
 }
 footer {
-    color: green;
-    background-color: green;
+    color: $yellow;
     section {
         h5 {
         }
         svg {
+            color: $yellow;
         }
     }
     ul {
+        list-style: none;
         li {
             a {
+                color: $yellow;
+                font-family: $Inter;
+                font-size: 24px;
             }
         }
     }
