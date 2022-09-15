@@ -1,6 +1,3 @@
-
-
-
 header {
     width: 100%;
     height: 100vh;
@@ -43,7 +40,7 @@ header {
         text-align: right;
         margin-top: 0;
     }
-    ul {
+    #his-hers {
         margin-top: 3.5rem;
         display: flex;
         flex-direction: column;
@@ -61,14 +58,21 @@ header {
             box-shadow: (4px 4px 0 #000);
             border: 2px solid #242b36;
             &:hover {
-                color:$yellow;
+                color: $yellow;
                 background-color: $maingray;
             }
         }
     }
 }
 nav {
-    display: none;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background-color: green;
     ul {
         li {
             a {
@@ -134,18 +138,18 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        h5{
+        h5 {
             margin: 1rem;
             margin-top: 4rem;
         }
-        div{
+        div {
             display: flex;
             flex-direction: row;
             gap: 2rem;
         }
         svg {
             color: $yellow;
-            margin:0;
+            margin: 0;
         }
     }
     ul {
@@ -153,7 +157,7 @@ footer {
         text-align: center;
         display: flex;
         flex-direction: column;
-        gap:2rem;
+        gap: 2rem;
         li {
             a {
                 color: $yellow;
@@ -164,21 +168,22 @@ footer {
     }
 }
 #cookies {
+    z-index: 99;
     position: fixed;
     left: 0px;
-top: 379px;
-width: 375px;
-height: 288px;
+    top: 379px;
+    width: 375px;
+    height: 288px;
     background-color: $black;
     display: flex;
     flex-direction: column;
-    gap:1.5rem;
-    p{
-        color:$yellow;
+    gap: 1.5rem;
+    p {
+        color: $yellow;
         font-weight: 400;
         margin: 2rem 0.5rem 0rem 1rem;
     }
-    button{
+    button {
         align-self: center;
         width: 280px;
         font-size: 36px;

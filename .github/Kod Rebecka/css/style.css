@@ -549,7 +549,7 @@ header h2 {
   margin-top: 0;
 }
 
-header ul {
+header #his-hers {
   margin-top: 3.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -568,7 +568,7 @@ header ul {
   gap: 2.5rem;
 }
 
-header ul li {
+header #his-hers li {
   background-color: #fcff5c;
   width: 170px;
   height: 50px;
@@ -586,13 +586,20 @@ header ul li {
   border: 2px solid #242b36;
 }
 
-header ul li:hover {
+header #his-hers li:hover {
   color: #fcff5c;
   background-color: #242b36;
 }
 
 nav {
-  display: none;
+  position: fixed;
+  z-index: 98;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: green;
 }
 
 main {
@@ -723,6 +730,7 @@ footer ul li a {
 }
 
 #cookies {
+  z-index: 99;
   position: fixed;
   left: 0px;
   top: 379px;
