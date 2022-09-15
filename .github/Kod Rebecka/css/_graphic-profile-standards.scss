@@ -53,34 +53,75 @@ button {
     text-transform: uppercase;
     font-family: $Insolata;
     font-weight: 400;
-    border: 2px solid #242B36;
     box-shadow: (4px 4px 0 #000);
     cursor: pointer;
 }
 .primary-button {
-    background-color: $maingray;
     color: $yellow;
+    background-color: $maingray;
+    border: 2px solid $maingray;
     font-size: 36px;
     margin-top: 4rem;
     &:hover{
         color: $maingray;
         background-color: $yellow;
+        border: 2px solid $yellow;
     }
     &:after{
         color: $maingray;
         background-color: $orange;
+        border: 2px solid $orange;
+
     }
 }
 .secondary-button {
     font-size: 20px;
-    background-color: $yellow;
     color: $maingray;
+    background-color: $yellow;
+    border: 2px solid $maingray;
+
     &:hover{
         color: $yellow;
         background-color: $maingray;
+        border: 2px solid $maingray;
     }
     &:after{
         color: $yellow;
+        background-color: $black;
+        border: 2px solid $black;
+    }
+}
+
+.cookie-button-primary{
+    color:$maingray;
+    background-color: $yellow;
+    border: 2px solid $maingray;
+    &:hover{
+        color: $yellow;
         background-color: $maingray;
+        border: 2px solid $maingray;
+    }
+    &:after{
+        color: $yellow;
+        background-color: $black;
+        border: 2px solid $black;
+    }
+}
+
+.cookie-button-secondary{
+    color:$yellow;
+    background-color: $black;
+    border: 2px solid $yellow;
+    &:hover{
+        color: $maingray;
+        background-color: $yellow;
+        border: 2px solid $yellow;
+
+    }
+    &:after{
+        color: $yellow;
+        background-color: $orange;
+        border: 2px solid $orange;
+
     }
 }

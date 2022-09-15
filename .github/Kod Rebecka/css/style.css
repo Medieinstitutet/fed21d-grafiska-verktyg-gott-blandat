@@ -417,15 +417,15 @@ button {
   text-transform: uppercase;
   font-family: "Inconsolata", monospace;
   font-weight: 400;
-  border: 2px solid #242B36;
   -webkit-box-shadow: 4px 4px 0 #000;
           box-shadow: 4px 4px 0 #000;
   cursor: pointer;
 }
 
 .primary-button {
-  background-color: #242b36;
   color: #fcff5c;
+  background-color: #242b36;
+  border: 2px solid #242b36;
   font-size: 36px;
   margin-top: 4rem;
 }
@@ -433,27 +433,68 @@ button {
 .primary-button:hover {
   color: #242b36;
   background-color: #fcff5c;
+  border: 2px solid #fcff5c;
 }
 
 .primary-button:after {
   color: #242b36;
   background-color: #fdcd51;
+  border: 2px solid #fdcd51;
 }
 
 .secondary-button {
   font-size: 20px;
-  background-color: #fcff5c;
   color: #242b36;
+  background-color: #fcff5c;
+  border: 2px solid #242b36;
 }
 
 .secondary-button:hover {
   color: #fcff5c;
   background-color: #242b36;
+  border: 2px solid #242b36;
 }
 
 .secondary-button:after {
   color: #fcff5c;
+  background-color: #16191e;
+  border: 2px solid #16191e;
+}
+
+.cookie-button-primary {
+  color: #242b36;
+  background-color: #fcff5c;
+  border: 2px solid #242b36;
+}
+
+.cookie-button-primary:hover {
+  color: #fcff5c;
   background-color: #242b36;
+  border: 2px solid #242b36;
+}
+
+.cookie-button-primary:after {
+  color: #fcff5c;
+  background-color: #16191e;
+  border: 2px solid #16191e;
+}
+
+.cookie-button-secondary {
+  color: #fcff5c;
+  background-color: #16191e;
+  border: 2px solid #fcff5c;
+}
+
+.cookie-button-secondary:hover {
+  color: #242b36;
+  background-color: #fcff5c;
+  border: 2px solid #fcff5c;
+}
+
+.cookie-button-secondary:after {
+  color: #fcff5c;
+  background-color: #fdcd51;
+  border: 2px solid #fdcd51;
 }
 
 header {
@@ -509,7 +550,7 @@ header h2 {
 }
 
 header ul {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -682,6 +723,34 @@ footer ul li a {
 }
 
 #cookies {
-  display: none;
+  position: fixed;
+  left: 0px;
+  top: 379px;
+  width: 375px;
+  height: 288px;
+  background-color: #16191e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+#cookies p {
+  color: #fcff5c;
+  font-weight: 400;
+  margin: 2rem 0.5rem 0rem 1rem;
+}
+
+#cookies button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 280px;
+  font-size: 36px;
+  text-transform: none;
 }
 /*# sourceMappingURL=style.css.map */

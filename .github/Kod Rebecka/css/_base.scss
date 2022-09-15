@@ -44,7 +44,7 @@ header {
         margin-top: 0;
     }
     ul {
-        margin-top: 3rem;
+        margin-top: 3.5rem;
         display: flex;
         flex-direction: column;
         list-style: none;
@@ -164,5 +164,24 @@ footer {
     }
 }
 #cookies {
-    display: none;
+    position: fixed;
+    left: 0px;
+top: 379px;
+width: 375px;
+height: 288px;
+    background-color: $black;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    p{
+        color:$yellow;
+        font-weight: 400;
+        margin: 2rem 0.5rem 0rem 1rem;
+    }
+    button{
+        align-self: center;
+        width: 280px;
+        font-size: 36px;
+        text-transform: none;
+    }
 }
