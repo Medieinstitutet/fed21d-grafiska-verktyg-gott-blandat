@@ -24,9 +24,8 @@ a,
 p {
     letter-spacing: 0.04em;
 }
-
-@import "graphic-profile-standards";
 @import "_normalize";
+@import "graphic-profile-standards";
 @import "_base";
 
 @media screen and (min-width: 1200px) {

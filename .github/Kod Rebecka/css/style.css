@@ -13,86 +13,6 @@ p {
   letter-spacing: 0.04em;
 }
 
-h1 {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 128px;
-  color: #242b36;
-}
-
-h2 {
-  font-family: "Inconsolata", monospace;
-  font-weight: 400;
-  font-size: 64px;
-  color: #cb1838;
-}
-
-h3 {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color: #242b36;
-}
-
-h4 {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #242b36;
-  text-transform: uppercase;
-}
-
-h5 {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 32px;
-  color: #fcff5c;
-}
-
-p {
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #242b36;
-}
-
-a {
-  font-family: "Inconsolata", monospace;
-  font-weight: 400;
-  font-size: 32px;
-  color: #000000;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-button {
-  width: 249px;
-  height: 51px;
-  text-transform: uppercase;
-  font-family: "Inconsolata", monospace;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  border: 2px solid #242B36;
-  -webkit-box-shadow: 4px 4px 0 #000;
-          box-shadow: 4px 4px 0 #000;
-}
-
-.primary-button {
-  background-color: #242b36;
-  color: #fcff5c;
-  font-size: 36px;
-  margin-top: 4rem;
-}
-
-.secondary-button {
-  font-size: 20px;
-  background-color: #fcff5c;
-  color: #242b36;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -436,14 +356,71 @@ template {
   display: none;
 }
 
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 128px;
+  color: #242b36;
+}
+
+h2 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 64px;
+  color: #cb1838;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #242b36;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #242b36;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #fcff5c;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #242b36;
+}
+
+a {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 button {
   width: 249px;
   height: 51px;
   text-transform: uppercase;
   font-family: "Inconsolata", monospace;
   font-weight: 400;
-  letter-spacing: 0.04em;
   border: 2px solid #242B36;
+  -webkit-box-shadow: 4px 4px 0 #000;
+          box-shadow: 4px 4px 0 #000;
+  cursor: pointer;
 }
 
 .primary-button {
@@ -453,10 +430,30 @@ button {
   margin-top: 4rem;
 }
 
+.primary-button:hover {
+  color: #242b36;
+  background-color: #fcff5c;
+}
+
+.primary-button:after {
+  color: #242b36;
+  background-color: #fdcd51;
+}
+
 .secondary-button {
   font-size: 20px;
   background-color: #fcff5c;
   color: #242b36;
+}
+
+.secondary-button:hover {
+  color: #fcff5c;
+  background-color: #242b36;
+}
+
+.secondary-button:after {
+  color: #fcff5c;
+  background-color: #242b36;
 }
 
 header {
@@ -546,6 +543,11 @@ header ul li {
   -webkit-box-shadow: 4px 4px 0 #000;
           box-shadow: 4px 4px 0 #000;
   border: 2px solid #242b36;
+}
+
+header ul li:hover {
+  color: #fcff5c;
+  background-color: #242b36;
 }
 
 nav {

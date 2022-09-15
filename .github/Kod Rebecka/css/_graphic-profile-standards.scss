@@ -53,18 +53,34 @@ button {
     text-transform: uppercase;
     font-family: $Insolata;
     font-weight: 400;
-    letter-spacing: 0.04em;
     border: 2px solid #242B36;
     box-shadow: (4px 4px 0 #000);
+    cursor: pointer;
 }
 .primary-button {
     background-color: $maingray;
     color: $yellow;
     font-size: 36px;
     margin-top: 4rem;
+    &:hover{
+        color: $maingray;
+        background-color: $yellow;
+    }
+    &:after{
+        color: $maingray;
+        background-color: $orange;
+    }
 }
 .secondary-button {
     font-size: 20px;
     background-color: $yellow;
     color: $maingray;
+    &:hover{
+        color: $yellow;
+        background-color: $maingray;
+    }
+    &:after{
+        color: $yellow;
+        background-color: $maingray;
+    }
 }
