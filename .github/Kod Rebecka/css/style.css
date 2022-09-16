@@ -916,7 +916,7 @@ footer ul li a {
     padding-bottom: 0px;
   }
   main article {
-    background: linear-gradient(245deg, #242B36 16.67%, #242B36 62.39%, #FCFF5C 62.39%, #FCFF5C 100.27%);
+    background: linear-gradient(245deg, #242b36 16.67%, #242b36 62.39%, #fcff5c 62.39%, #fcff5c 100.27%);
     height: 33.125rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -988,7 +988,46 @@ footer ul li a {
     bottom: 3rem;
   }
   main .brand-section {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 85vh;
+    background: linear-gradient(185deg, #FFFFFF -36.64%, #FFFFFF 37.9%, #FCFF5C 37.9%, #FCFF5C 91.11%);
+  }
+  main .brand-section p {
+    text-align: center;
+    font-weight: 600;
+    margin: 2rem 4.6rem 0 4.6rem;
+  }
+  main .brand-section h4 {
+    margin-top: 5rem;
+  }
+  main .brand-section ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 120px;
+            column-gap: 120px;
+    row-gap: 1rem;
+    width: 60vw;
+    margin-top: -2rem;
+  }
+  main .brand-section ul li img {
+    width: 7.75rem;
+    height: 7.75rem;
   }
   footer {
     display: -webkit-box;
@@ -1001,6 +1040,8 @@ footer ul li a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 15vh;
+    background-color: #242b36;
   }
   footer section {
     display: -webkit-box;
