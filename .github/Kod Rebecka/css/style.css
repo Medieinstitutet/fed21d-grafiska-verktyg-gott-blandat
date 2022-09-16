@@ -657,6 +657,10 @@ nav ul #newText {
   color: #cb1838;
 }
 
+nav ul #search {
+  display: none;
+}
+
 main {
   position: relative;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fcff5c), color-stop(10%, #fcff5c), color-stop(10%, #242b36), color-stop(87%, #242b36), color-stop(87%, #fcff5c), to(#fcff5c));
@@ -1183,6 +1187,17 @@ footer ul li a {
   }
   header nav ul a {
     font-size: 2rem;
+  }
+  header nav ul #search {
+    display: block;
+    background-color: red;
+    width: 18.9375rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav ul #search input {
+    color: green;
   }
   main article {
     margin-top: 1.8rem;

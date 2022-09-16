@@ -26,6 +26,15 @@ header {
             a {
                 font-size: pxToRem(32);
             }
+            #search{
+                display: block;
+                background-color:red;
+                width: pxToRem(303);
+                display: flex;
+                input{
+                    color: green;
+                }
+            }
         }
     }
 }
