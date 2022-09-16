@@ -1,18 +1,8 @@
-body {
-    background-color: $yellow;
-}
+
 header {
-    width: 100vw;
     height: pxToRem(214);
-    background-color: $yellow;
-    background-image: none;
-    #hamburger {
-        display: none;
-    }
     h1 {
         font-size: pxToRem(86);
-        text-align: left;
-        margin-top: pxToRem(16);
         margin-left: pxToRem(50);
     }
     h2 {
@@ -20,28 +10,10 @@ header {
         margin-top: pxToRem(-80);
         margin-right: pxToRem(50);
     }
-    .divider {
-        display: block;
-        width: 99vw;
-        height: 0;
-        border: 2px solid $maingray;
-        margin-bottom: 1rem;
-    }
     .header-nav {
-        display: flex;
         gap: 0;
         #his-hers {
-            margin-top: 0rem;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            gap: 2.5rem;
-            z-index: 10;
             li {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border: 3px solid #242b36;
                 a {
                     font-size: pxToRem(36);
                 }
@@ -49,18 +21,7 @@ header {
         }
     }
     nav {
-        position: static;
-        z-index: 0;
-        height: auto;
-        display: block;
-        opacity: 1;
         ul {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-evenly;
-            height: 100%;
-            margin-top: 0;
             a {
                 font-size: pxToRem(24);
             }
@@ -69,53 +30,29 @@ header {
 }
 
 main {
-    background-image: none;
-    background-color: green;
-    padding-bottom: 0px;
     article {
-        background: linear-gradient(245deg, #242b36 16.67%, #242b36 62.39%, #fcff5c 62.39%, #fcff5c 100.27%);
         height: pxToRem(530);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
-        position: relative;
-        top: 0;
         h3 {
-            position: absolute;
             left: 5rem;
             top: 1.8rem;
             font-size: pxToRem(24);
             #collection {
-                color: $maingray;
             }
         }
         .images-and-text-fp {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
             gap: 1.5rem;
-            width: 95vw;
             margin-top: pxToRem(85);
             img {
                 width: pxToRem(213.32);
                 height: pxToRem(327.4);
-                object-fit: contain;
-                object-position: center center;
-                border: 2px solid #000000;
-                filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
             }
             p {
-                order: -1;
                 width: pxToRem(292);
-                color: $maingray;
-                text-align: left;
                 font-size: pxToRem(16);
                 margin: -3rem 0 0 0;
             }
         }
         button {
-            position: absolute;
             left: 3rem;
         }
         .primary-button {
@@ -159,30 +96,13 @@ main {
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     gap: 20vw;
     height: 15vh;
-    background-color: $maingray;
     section {
-        order: 1;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         h5 {
-            margin: 0;
-            margin-top: 0;
             font-size: pxToRem(24);
         }
         div {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
             height:50%;
             gap: 0;
             svg{
@@ -192,16 +112,9 @@ footer {
         }
     }
     ul {
-        order: 0;
-        list-style: none;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
         gap: 1rem;
         li {
             a {
-                color: $yellow;
-                font-family: $Inter;
                 font-size: pxToRem(16);
             }
         }
@@ -218,8 +131,4 @@ footer {
     button {
         align-self: center;
     }
-}
-
-#nav {
-    display: block;
 }
