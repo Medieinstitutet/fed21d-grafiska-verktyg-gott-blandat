@@ -54,18 +54,18 @@ header {
                     z-index: 4;
                     width: pxToRem(260);
                     height: pxToRem(29);
-                    border-left: 2px solid #242B36;
-                    border-right: 2px solid #242B36;
+                    border-left: 2px solid $maingray;
+                    border-right: 2px solid $maingray;
                 }
                 .bottom-border{
-                    border-top: 2px solid #242B36;
+                    border-top: 2px solid $maingray;
                     position: absolute;
                     width: 8px;
                     bottom: 0;
                 }
                 #bottom-border-right{right:0}
                 .top-border{
-                    border-top: 2px solid #242B36;
+                    border-top: 2px solid $maingray;
                     position: absolute;
                     width: 8px;
                     top: 0;
@@ -93,6 +93,9 @@ main {
                 display: none;
             }
             #collection {
+                #collection-desktop{
+                    color:$yellow;
+                }
             }
         }
         .images-and-text-fp {
