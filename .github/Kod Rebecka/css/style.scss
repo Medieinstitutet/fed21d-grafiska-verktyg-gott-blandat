@@ -47,14 +47,12 @@ p {
     header{h1{.future{color:$maingray}}}
 }
 
-
-//Specific design for tablet and desktop
 @media screen and (min-width: 1100px) {
     //Need to swap color on h1,
     @import "_tablet"
 }
 
 //Desktop view
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1900px) {
     @import "_desktop";
 }

@@ -1,21 +1,22 @@
 
 header {
-    height: pxToRem(214);
+    height: pxToRem(auto);
     h1 {
-        font-size: pxToRem(86);
-        margin-left: pxToRem(50);
+        font-size: pxToRem(128);
+        margin-left: pxToRem(300);
     }
     h2 {
-        font-size: pxToRem(48);
-        margin-top: pxToRem(-80);
-        margin-right: pxToRem(50);
+        position: absolute;
+        font-size: pxToRem(64);
+        margin-top: pxToRem(-120);
+        margin-right: pxToRem(0);
+        right: pxToRem(250);
     }
     .header-nav {
         gap: 0;
         #his-hers {
             li {
                 a {
-                    font-size: pxToRem(36);
                 }
             }
         }
@@ -23,7 +24,7 @@ header {
     nav {
         ul {
             a {
-                font-size: pxToRem(24);
+                font-size: pxToRem(32);
             }
         }
     }
@@ -31,11 +32,15 @@ header {
 
 main {
     article {
-        height: pxToRem(530);
+        margin-top: 1.8rem;
+        height: pxToRem(788);
         h3 {
-            left: 5rem;
+            left: 0.5rem;
             top: 1.8rem;
-            font-size: pxToRem(24);
+            font-size: pxToRem(36);
+            br{
+                display: none;
+            }
             #collection {
             }
         }
@@ -43,52 +48,42 @@ main {
             gap: 1.5rem;
             margin-top: pxToRem(85);
             img {
-                width: pxToRem(213.32);
-                height: pxToRem(327.4);
+                width: pxToRem(316);
+                height: pxToRem(485);
             }
             p {
-                width: pxToRem(292);
-                font-size: pxToRem(16);
-                margin: -3rem 0 0 0;
+                width: pxToRem(565);
+                font-size: pxToRem(24);
+                margin: 2rem 0 0 0;
             }
         }
         button {
-            left: 3rem;
+            left: 13rem;
         }
         .primary-button {
-            bottom: 8rem;
+            bottom: 14rem;
         }
         .secondary-button {
-            bottom: 3rem;
+            bottom: 9rem;
         }
     }
     .brand-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 85vh;
-        background: linear-gradient(185deg, #FFFFFF -36.64%, #FFFFFF 37.9%, #FCFF5C 37.9%, #FCFF5C 91.11%);
         p {
-            text-align: center;
-            font-weight: 600;
-            margin: 2rem 4.6rem 0 4.6rem;
+            width: pxToRem(986);
+            margin: 3rem 0rem 0 0rem;
         }
         h4 {
-            margin-top: 5rem;
+            margin-top: 10rem;
         }
         ul {
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             column-gap:120px; 
             row-gap: 1rem;
             width: 60vw;
             margin-top: -2rem;
             li {
                 img {
-                    width: pxToRem(124);
-                    height: pxToRem(124);
+                    width: pxToRem(206);
+                    height: pxToRem(206);
                 }
             }
         }
