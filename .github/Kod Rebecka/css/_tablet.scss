@@ -3,7 +3,7 @@ body {
 }
 header {
     width: 100vw;
-    height: auto;
+    height: pxToRem(214);
     background-color: $yellow;
     background-image: none;
     #hamburger {
@@ -22,7 +22,7 @@ header {
     }
     .divider {
         display: block;
-        width: 100vw;
+        width: 99vw;
         height: 0;
         border: 2px solid $maingray;
         margin-bottom: 1rem;
@@ -61,7 +61,7 @@ header {
             justify-content: space-evenly;
             height: 100%;
             margin-top: 0;
-            a{
+            a {
                 font-size: pxToRem(24);
             }
         }
@@ -69,41 +69,61 @@ header {
 }
 
 main {
-    background-image: linear-gradient(
-        180deg,
-        $yellow 0%,
-        $yellow 10%,
-        $maingray 10%,
-        $maingray 87%,
-        $yellow 87%,
-        $yellow 100%
-    );
+    background-image: none;
+    background-color: green;
     padding-bottom: 0px;
     article {
+        height: pxToRem(530);
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 0;
         position: relative;
         top: 0;
-        img {
-            width: pxToRem(213.32);
-            height: pxToRem(327.4);
-            object-fit: contain;
-            object-position: center center;
-            border: 2px solid #000000;
-            filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
+        h3{
+            position: absolute;
+            left: 5rem;
+            top:1.8rem;
+            font-size: pxToRem(24);
         }
-        p {
-            color: $maingray;
-            text-align: left;
-            font-size: pxToRem(16);
-            margin: 0 0rem 0rem 0rem;
+        .images-and-text-fp {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 1.5rem;
+            width: 95vw;
+            margin-top: pxToRem(80);
+            img {
+                width: pxToRem(213.32);
+                height: pxToRem(327.4);
+                object-fit: contain;
+                object-position: center center;
+                border: 2px solid #000000;
+                filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
+            }
+            p {
+                order: -1;
+                width: pxToRem(292);
+                color: $maingray;
+                text-align: left;
+                font-size: pxToRem(16);
+                margin: -1rem 2rem 0 0;
+            }
+        }
+        button{
+            position: absolute;
+            left: 3rem;
+        }
+        .primary-button{
+            bottom: 8rem;
+        }
+        .secondary-button{
+            bottom: 3rem;
         }
     }
 }
 .brand-section {
-    display: block;
+    display: none;
 }
 footer {
     display: flex;

@@ -126,6 +126,12 @@ main {
                 color: $yellow;
             }
         }
+        .images-and-text-fp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
         img {
             width: pxToRem(316);
             height: pxToRem(340);

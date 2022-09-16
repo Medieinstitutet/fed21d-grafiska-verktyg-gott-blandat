@@ -668,6 +668,20 @@ main article h3 #collection {
   color: #fcff5c;
 }
 
+main article .images-and-text-fp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
 main article img {
   width: 19.75rem;
   height: 21.25rem;
@@ -808,7 +822,7 @@ footer ul li a {
   }
   header {
     width: 100vw;
-    height: auto;
+    height: 13.375rem;
     background-color: #fcff5c;
     background-image: none;
   }
@@ -828,7 +842,7 @@ footer ul li a {
   }
   header .divider {
     display: block;
-    width: 100vw;
+    width: 99vw;
     height: 0;
     border: 2px solid #242b36;
     margin-bottom: 1rem;
@@ -897,11 +911,12 @@ footer ul li a {
     font-size: 1.5rem;
   }
   main {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcff5c), color-stop(10%, #fcff5c), color-stop(10%, #242b36), color-stop(87%, #242b36), color-stop(87%, #fcff5c), to(#fcff5c));
-    background-image: linear-gradient(180deg, #fcff5c 0%, #fcff5c 10%, #242b36 10%, #242b36 87%, #fcff5c 87%, #fcff5c 100%);
+    background-image: none;
+    background-color: green;
     padding-bottom: 0px;
   }
   main article {
+    height: 33.125rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -916,7 +931,28 @@ footer ul li a {
     position: relative;
     top: 0;
   }
-  main article img {
+  main article h3 {
+    position: absolute;
+    left: 5rem;
+    top: 1.8rem;
+    font-size: 1.5rem;
+  }
+  main article .images-and-text-fp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 1.5rem;
+    width: 95vw;
+    margin-top: 5rem;
+  }
+  main article .images-and-text-fp img {
     width: 13.3325rem;
     height: 20.4625rem;
     -o-object-fit: contain;
@@ -927,14 +963,28 @@ footer ul li a {
     -webkit-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
             filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
   }
-  main article p {
+  main article .images-and-text-fp p {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    width: 18.25rem;
     color: #242b36;
     text-align: left;
     font-size: 1rem;
-    margin: 0 0rem 0rem 0rem;
+    margin: -1rem 2rem 0 0;
+  }
+  main article button {
+    position: absolute;
+    left: 3rem;
+  }
+  main article .primary-button {
+    bottom: 8rem;
+  }
+  main article .secondary-button {
+    bottom: 3rem;
   }
   .brand-section {
-    display: block;
+    display: none;
   }
   footer {
     display: -webkit-box;
