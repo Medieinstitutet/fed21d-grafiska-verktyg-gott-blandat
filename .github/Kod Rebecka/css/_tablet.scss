@@ -1,0 +1,142 @@
+body {
+    background-color: $yellow;
+}
+header {
+    width: 100vw;
+    height: auto;
+    background-color: $yellow;
+    background-image: none;
+    #hamburger {
+        display: none;
+    }
+    h1 {
+        font-size: pxToRem(86);
+        text-align: left;
+        margin-top: pxToRem(16);
+        margin-left: pxToRem(33);
+    }
+    h2 {
+        font-size: pxToRem(48);
+        text-align: right;
+        margin-top: 0;
+    }
+    #his-hers {
+        margin-top: 0rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #242b36;
+            a {
+                font-size: pxToRem(36);
+            }
+        }
+    }
+}
+nav {
+    position: static;
+    z-index: 0;
+    height: auto;
+    display: block;
+    opacity: 1;
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100%;
+        margin-top: 0;
+    }
+}
+
+main {
+    background-image: linear-gradient(
+        180deg,
+        $yellow 0%,
+        $yellow 10%,
+        $maingray 10%,
+        $maingray 87%,
+        $yellow 87%,
+        $yellow 100%
+    );
+    padding-bottom: 0px;
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        position: relative;
+        top: 0;
+        img {
+            width: pxToRem(213.32);
+            height: pxToRem(327.4);
+            object-fit: contain;
+            object-position: center center;
+            border: 2px solid #000000;
+            filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
+        }
+        p {
+            color: $maingray;
+            text-align: left;
+            font-size: pxToRem(16);
+            margin: 0 0rem 0rem 0rem;
+        }
+    }
+}
+.brand-section {
+    display: block;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h5 {
+            margin: 1rem;
+            margin-top: 4rem;
+        }
+        div {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+        }
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        li {
+            a {
+                color: $yellow;
+                font-family: $Inter;
+                font-size: pxToRem(24);
+            }
+        }
+    }
+}
+#cookies {
+    height: pxToRem(288);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    p {
+        margin: 2rem 0.5rem 0rem 1rem;
+    }
+    button {
+        align-self: center;
+    }
+}
+
+#nav {
+    display: block;
+}

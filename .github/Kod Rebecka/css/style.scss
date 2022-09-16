@@ -1,3 +1,8 @@
+@function pxToRem($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+  }
+  
 /////////////////
 /// Variables ///
 /////////////////
@@ -28,7 +33,7 @@ h5,
 h6,
 a,
 p {
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04rem;
 }
 
 ///////////////
@@ -40,10 +45,19 @@ p {
 @import "graphic-profile-standards";
 @import "_base";
 
-//Specific design for tablet and desktop
-@media screen and (min-width: 1133px) {
-    @import "_desktop";
+@media screen and (min-width: 670px) {
+    //Need to swap color on h1,
+    header{h1{.future{color:$maingray}}}
 }
-@media screen and (min-width: 1200px) {
+
+
+//Specific design for tablet and desktop
+@media screen and (min-width: 1100px) {
+    //Need to swap color on h1,
+    @import "_tablet"
+}
+
+//Desktop view
+@media screen and (min-width: 1000px) {
     @import "_desktop";
 }
