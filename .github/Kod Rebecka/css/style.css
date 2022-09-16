@@ -916,6 +916,7 @@ footer ul li a {
     padding-bottom: 0px;
   }
   main article {
+    background: linear-gradient(245deg, #242B36 16.67%, #242B36 62.39%, #FCFF5C 62.39%, #FCFF5C 100.27%);
     height: 33.125rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -937,6 +938,9 @@ footer ul li a {
     top: 1.8rem;
     font-size: 1.5rem;
   }
+  main article h3 #collection {
+    color: #242b36;
+  }
   main article .images-and-text-fp {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -950,7 +954,7 @@ footer ul li a {
             justify-content: space-between;
     gap: 1.5rem;
     width: 95vw;
-    margin-top: 5rem;
+    margin-top: 5.3125rem;
   }
   main article .images-and-text-fp img {
     width: 13.3325rem;
@@ -971,7 +975,7 @@ footer ul li a {
     color: #242b36;
     text-align: left;
     font-size: 1rem;
-    margin: -1rem 2rem 0 0;
+    margin: -3rem 0 0 0;
   }
   main article button {
     position: absolute;
@@ -983,7 +987,7 @@ footer ul li a {
   main article .secondary-button {
     bottom: 3rem;
   }
-  .brand-section {
+  main .brand-section {
     display: none;
   }
   footer {
