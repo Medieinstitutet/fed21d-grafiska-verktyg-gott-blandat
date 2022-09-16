@@ -850,7 +850,7 @@ footer ul li a {
     background-color: #fcff5c;
   }
   header {
-    width: 100vw;
+    width: 98.7vw;
     height: 13.375rem;
     background-color: #fcff5c;
     background-image: none;
@@ -881,13 +881,20 @@ footer ul li a {
     display: none;
   }
   header .header-nav {
+    border-top: 3px solid #242b36;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 0;
   }
   header .header-nav #his-hers {
-    margin-top: 0rem;
+    margin-top: 1rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -920,7 +927,6 @@ footer ul li a {
     position: static;
     z-index: 0;
     height: auto;
-    display: block;
     opacity: 1;
   }
   header nav ul {
@@ -948,6 +954,7 @@ footer ul li a {
     padding-bottom: 0px;
   }
   main article {
+    border-top: 3px solid #242b36;
     background: linear-gradient(245deg, #242b36 16.67%, #242b36 62.39%, #fcff5c 62.39%, #fcff5c 100.27%);
     height: 33.125rem;
     display: -webkit-box;
