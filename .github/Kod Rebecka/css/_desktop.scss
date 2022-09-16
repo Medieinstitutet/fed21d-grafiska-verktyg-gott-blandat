@@ -27,12 +27,54 @@ header {
                 font-size: pxToRem(32);
             }
             #search{
-                display: block;
-                background-color:red;
                 width: pxToRem(303);
                 display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: pxtoRem(20);
+                padding: 6px;
+                border: 3px solid $maingray;
                 input{
-                    color: green;
+                    font-family: $Insolata;
+                    font-size: 24px;
+                    width: pxToRem(269);
+                    height: pxToRem(29);
+                    border: none;
+                    background-color: transparent;
+                    text-align: center;
+                    color: $maingray;
+                }
+                input::placeholder{
+                    opacity: 1;
+                }
+                #search-div{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    z-index: 4;
+                    width: pxToRem(260);
+                    height: pxToRem(29);
+                    border-left: 2px solid #242B36;
+                    border-right: 2px solid #242B36;
+                }
+                .bottom-border{
+                    border-top: 2px solid #242B36;
+                    position: absolute;
+                    width: 8px;
+                    bottom: 0;
+                }
+                #bottom-border-right{right:0}
+                .top-border{
+                    border-top: 2px solid #242B36;
+                    position: absolute;
+                    width: 8px;
+                    top: 0;
+                }
+                #top-border-right{right:0}
+                #search-ikon{
+                    width: pxToRem(31);
+                    height: pxToRem(31);
+                    margin-right: 8px;
                 }
             }
         }
