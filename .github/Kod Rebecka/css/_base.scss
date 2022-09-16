@@ -47,8 +47,15 @@ header {
     .divider{
         display: none;
     }
+    .header-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     #his-hers {
+        margin-left: 0;
         margin-top: 3.5rem;
+        text-align: left;
         display: flex;
         flex-direction: column;
         list-style: none;
@@ -69,6 +76,15 @@ header {
                 background-color: $maingray;
             }
         }
+    }
+    #scroll-down{
+        position: absolute;
+        fill:$yellow;
+        width: 38px;
+        height:auto;
+        left: 50%;
+        transform:translateX(-50%);
+        bottom:1rem;
     }
 }
 nav {

@@ -554,8 +554,22 @@ header .divider {
   display: none;
 }
 
+header .header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 header #his-hers {
+  margin-left: 0;
   margin-top: 3.5rem;
+  text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -594,6 +608,17 @@ header #his-hers li {
 header #his-hers li:hover {
   color: #fcff5c;
   background-color: #242b36;
+}
+
+header #scroll-down {
+  position: absolute;
+  fill: #fcff5c;
+  width: 38px;
+  height: auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 1rem;
 }
 
 nav {
@@ -846,6 +871,9 @@ footer ul li a {
     height: 0;
     border: 2px solid #242b36;
     margin-bottom: 1rem;
+  }
+  header #scroll-down {
+    display: none;
   }
   header .header-nav {
     display: -webkit-box;
