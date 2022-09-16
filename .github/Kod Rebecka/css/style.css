@@ -1037,7 +1037,7 @@ footer ul li a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 85vh;
+    height: auto;
     background: linear-gradient(185deg, #FFFFFF -36.64%, #FFFFFF 37.9%, #FCFF5C 37.9%, #FCFF5C 91.11%);
   }
   main .brand-section p {
@@ -1061,7 +1061,7 @@ footer ul li a {
     -webkit-column-gap: 120px;
             column-gap: 120px;
     row-gap: 1rem;
-    width: 60vw;
+    width: 800px;
     margin-top: -2rem;
   }
   main .brand-section ul li img {
@@ -1083,7 +1083,7 @@ footer ul li a {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 20vw;
-    height: 15vh;
+    height: auto;
     background-color: #242b36;
   }
   footer section {
@@ -1188,9 +1188,6 @@ footer ul li a {
     margin-top: -7.5rem;
     margin-right: 0rem;
     right: 15.625rem;
-  }
-  header .header-nav {
-    gap: 0;
   }
   header nav ul a {
     font-size: 2rem;
@@ -1317,7 +1314,7 @@ footer ul li a {
     -webkit-column-gap: 120px;
             column-gap: 120px;
     row-gap: 1rem;
-    width: 60vw;
+    width: 900px;
     margin-top: -2rem;
   }
   main .brand-section ul li img {

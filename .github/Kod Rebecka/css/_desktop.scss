@@ -1,4 +1,3 @@
-
 header {
     height: pxToRem(auto);
     h1 {
@@ -12,21 +11,12 @@ header {
         margin-right: pxToRem(0);
         right: pxToRem(250);
     }
-    .header-nav {
-        gap: 0;
-        #his-hers {
-            li {
-                a {
-                }
-            }
-        }
-    }
     nav {
         ul {
             a {
                 font-size: pxToRem(32);
             }
-            #search{
+            #search {
                 width: pxToRem(303);
                 display: flex;
                 justify-content: center;
@@ -34,7 +24,7 @@ header {
                 gap: pxtoRem(20);
                 padding: 6px;
                 border: 3px solid $maingray;
-                input{
+                input {
                     font-family: $Insolata;
                     font-size: 24px;
                     width: pxToRem(269);
@@ -44,10 +34,10 @@ header {
                     text-align: center;
                     color: $maingray;
                 }
-                input::placeholder{
+                input::placeholder {
                     opacity: 1;
                 }
-                #search-div{
+                #search-div {
                     position: relative;
                     display: flex;
                     align-items: center;
@@ -57,21 +47,25 @@ header {
                     border-left: 2px solid $maingray;
                     border-right: 2px solid $maingray;
                 }
-                .bottom-border{
+                .bottom-border {
                     border-top: 2px solid $maingray;
                     position: absolute;
                     width: 8px;
                     bottom: 0;
                 }
-                #bottom-border-right{right:0}
-                .top-border{
+                #bottom-border-right {
+                    right: 0;
+                }
+                .top-border {
                     border-top: 2px solid $maingray;
                     position: absolute;
                     width: 8px;
                     top: 0;
                 }
-                #top-border-right{right:0}
-                #search-ikon{
+                #top-border-right {
+                    right: 0;
+                }
+                #search-ikon {
                     width: pxToRem(31);
                     height: pxToRem(31);
                     margin-right: 8px;
@@ -89,12 +83,12 @@ main {
             left: 0.5rem;
             top: 1.8rem;
             font-size: pxToRem(36);
-            br{
+            br {
                 display: none;
             }
             #collection {
-                #collection-desktop{
-                    color:$yellow;
+                #collection-desktop {
+                    color: $yellow;
                 }
             }
         }
@@ -130,9 +124,9 @@ main {
             margin-top: 10rem;
         }
         ul {
-            column-gap:120px; 
+            column-gap: 120px;
             row-gap: 1rem;
-            width: 60vw;
+            width: 900px;
             margin-top: -2rem;
             li {
                 img {
@@ -152,9 +146,9 @@ footer {
             font-size: pxToRem(24);
         }
         div {
-            height:50%;
+            height: 50%;
             gap: 0;
-            svg{
+            svg {
                 transform: scale(50%);
                 margin: 0;
             }

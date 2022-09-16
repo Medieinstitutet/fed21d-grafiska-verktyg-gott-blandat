@@ -135,7 +135,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 85vh;
+        height: auto;
         background: linear-gradient(185deg, #FFFFFF -36.64%, #FFFFFF 37.9%, #FCFF5C 37.9%, #FCFF5C 91.11%);
         p {
             text-align: center;
@@ -152,7 +152,7 @@ main {
             justify-content: center;
             column-gap:120px; 
             row-gap: 1rem;
-            width: 60vw;
+            width: 800px;
             margin-top: -2rem;
             li {
                 img {
@@ -170,7 +170,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 20vw;
-    height: 15vh;
+    height: auto;
     background-color: $maingray;
     section {
         order: 1;
