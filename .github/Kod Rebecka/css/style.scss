@@ -22,9 +22,6 @@ $Inter: "Inter", sans-serif;
 /// Standard Styles ///
 ///////////////////////
 
-body {
-    background-color: $maingray;
-}
 h1,
 h2,
 h3,
@@ -45,7 +42,7 @@ p {
 @import "graphic-profile-standards";
 @import "_base";
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 635px) {
     //Need to swap color on h1,
     header{h1{.future{color:$maingray}}}
 }

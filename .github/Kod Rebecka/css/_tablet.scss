@@ -13,43 +13,58 @@ header {
         font-size: pxToRem(86);
         text-align: left;
         margin-top: pxToRem(16);
-        margin-left: pxToRem(33);
+        margin-left: pxToRem(50);
     }
     h2 {
         font-size: pxToRem(48);
-        text-align: right;
-        margin-top: 0;
+        margin-top: pxToRem(-80);
+        margin-right: pxToRem(50);
     }
-    #his-hers {
-        margin-top: 0rem;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 2.5rem;
-        li {
-            display: flex;
-            justify-content: center;
+    .divider {
+        display: block;
+        width: 100vw;
+        height: 0;
+        border: 2px solid $maingray;
+        margin-bottom: 1rem;
+    }
+    .header-nav {
+        display: flex;
+        gap: 0;
+        #his-hers {
+            margin-top: 0rem;
+            flex-direction: row;
             align-items: center;
-            border: 3px solid #242b36;
-            a {
-                font-size: pxToRem(36);
+            justify-content: center;
+            gap: 2.5rem;
+            z-index: 10;
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid #242b36;
+                a {
+                    font-size: pxToRem(36);
+                }
             }
         }
     }
-}
-nav {
-    position: static;
-    z-index: 0;
-    height: auto;
-    display: block;
-    opacity: 1;
-    ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        height: 100%;
-        margin-top: 0;
+    nav {
+        position: static;
+        z-index: 0;
+        height: auto;
+        display: block;
+        opacity: 1;
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100%;
+            margin-top: 0;
+            a{
+                font-size: pxToRem(24);
+            }
+        }
     }
 }
 
