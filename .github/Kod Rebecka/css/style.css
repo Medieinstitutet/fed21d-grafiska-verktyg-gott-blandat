@@ -538,6 +538,7 @@ header h1 {
   padding: 0;
   text-align: center;
   margin-top: 3.125rem;
+  overflow: hidden;
 }
 
 header h1 .future {
@@ -1198,21 +1199,25 @@ footer ul li a {
     font-size: 1rem;
   }
   #cookies {
-    height: 18rem;
-    display: none;
-    -webkit-box-orient: vertical;
+    height: 7.375rem;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 1.5rem;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 0;
   }
   #cookies p {
-    margin: 2rem 0.5rem 0rem 1rem;
-  }
-  #cookies button {
+    font-size: 1.25rem;
+    width: 50%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    margin: 0;
+    padding-left: 2rem;
+  }
+  #cookies button {
+    width: 16rem;
+    margin-right: 1rem;
   }
   #nav {
     display: block;
@@ -1405,21 +1410,26 @@ footer ul li a {
     font-size: 1rem;
   }
   #cookies {
-    height: 18rem;
-    display: none;
-    -webkit-box-orient: vertical;
+    height: 7.375rem;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 1.5rem;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 2rem;
   }
   #cookies p {
-    margin: 2rem 0.5rem 0rem 1rem;
-  }
-  #cookies button {
+    font-size: 1.25rem;
+    width: auto;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    margin: 0;
+    padding-left: 2rem;
+    padding-right: 8rem;
+  }
+  #cookies button {
+    width: 16rem;
+    margin-right: 1rem;
   }
   .logoSvg {
     display: block;
