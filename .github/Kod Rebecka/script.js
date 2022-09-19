@@ -36,3 +36,12 @@ function hoverImgLeave(id){
   gsap.to(item, 0.5, {opacity:1, scaleX:1, scaleY:1, transformOrigin:"center", marginTop:0, ease:Power1.easeIn});
 };
 
+function hoverSVGEnter(id){
+  let item = "#"+id.toString();
+  gsap.to(item, 0.2, {opacity:1, scaleX:1, scaleY:1, transformOrigin:"center", marginTop:0, ease:Power1.easeIn});
+};
+function hoverSVGLeave(id){
+  let item = "#"+id.toString();
+  gsap.to(item, 0.2, {opacity:1, scaleX:0.6, scaleY:0.6, transformOrigin:"center", marginTop:0, ease:Power1.easeIn});
+};
+
