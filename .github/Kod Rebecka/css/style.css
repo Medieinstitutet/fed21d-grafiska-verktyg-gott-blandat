@@ -843,6 +843,10 @@ footer ul li a {
   display: none;
 }
 
+.white {
+  display: none;
+}
+
 @media screen and (min-width: 635px) {
   header h1 .future {
     color: #242b36;
@@ -984,6 +988,42 @@ footer ul li a {
   main article h3 #collection {
     color: #242b36;
   }
+  main article .white {
+    display: block;
+    position: relative;
+    top: 60px;
+    width: 97vw;
+    z-index: 80;
+  }
+  main article .white .white-block {
+    position: absolute;
+    width: 115px;
+    height: 31px;
+    background-color: #fff;
+    border: 2px solid #000000;
+    -webkit-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
+            filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
+  }
+  main article .white .white-block p {
+    position: relative;
+    left: -29px;
+    top: 7px;
+    width: 100%;
+    font-family: "Inconsolata", monospace;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #242b36;
+  }
+  main article .white #block1 {
+    left: 42%;
+  }
+  main article .white #block2 {
+    left: 66%;
+  }
+  main article .white #block3 {
+    right: 0;
+  }
   main article .images-and-text-fp {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1000,6 +1040,7 @@ footer ul li a {
     margin-top: 5.3125rem;
   }
   main article .images-and-text-fp img {
+    position: relative;
     width: 13.3325rem;
     height: 20.4625rem;
     -o-object-fit: contain;
@@ -1042,7 +1083,7 @@ footer ul li a {
         -ms-flex-align: center;
             align-items: center;
     height: auto;
-    background: linear-gradient(185deg, #FFFFFF -36.64%, #FFFFFF 37.9%, #FCFF5C 37.9%, #FCFF5C 91.11%);
+    background: linear-gradient(185deg, #ffffff -36.64%, #ffffff 37.9%, #fcff5c 37.9%, #fcff5c 91.11%);
   }
   main .brand-section p {
     text-align: center;
@@ -1284,6 +1325,19 @@ footer ul li a {
   }
   main article h3 #collection #collection-desktop {
     color: #fcff5c;
+  }
+  main article .white .white-block {
+    width: 170px;
+    height: 46px;
+  }
+  main article .white .white-block p {
+    font-size: 1.5rem;
+  }
+  main article .white #block1 {
+    left: 46%;
+  }
+  main article .white #block2 {
+    left: 68%;
   }
   main article .images-and-text-fp {
     gap: 1.5rem;

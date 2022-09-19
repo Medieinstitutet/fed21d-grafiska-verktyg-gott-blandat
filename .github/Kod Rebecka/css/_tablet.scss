@@ -28,8 +28,8 @@ header {
         border: 2px solid $maingray;
         margin-bottom: 1rem;
     }
-    #scroll-down{
-        display:none;
+    #scroll-down {
+        display: none;
     }
     .header-nav {
         border-top: 3px solid $maingray;
@@ -96,6 +96,41 @@ main {
                 color: $maingray;
             }
         }
+        .white {
+            display: block;
+            position: relative;
+            top: 60px;
+            width: 97vw;
+            z-index: 80;
+            .white-block {
+                position: absolute;
+                width: 115px;
+                height: 31px;
+                background-color: #fff;
+                border: 2px solid #000000;
+                filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.7));
+                p {
+                    position: relative;
+                    left: -29px;
+                    top:7px;
+                    width: 100%;
+                    font-family: $Insolata;
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: pxToRem(16);
+                    color:$maingray;
+                }
+            }
+            #block1 {
+                left: 42%;
+            }
+            #block2 {
+                left: 66%;
+            }
+            #block3 {
+                right: 0;
+            }
+        }
         .images-and-text-fp {
             display: flex;
             flex-direction: row;
@@ -104,6 +139,7 @@ main {
             width: 95vw;
             margin-top: pxToRem(85);
             img {
+                position: relative;
                 width: pxToRem(213.32);
                 height: pxToRem(327.4);
                 object-fit: contain;
@@ -136,7 +172,7 @@ main {
         flex-direction: column;
         align-items: center;
         height: auto;
-        background: linear-gradient(185deg, #FFFFFF -36.64%, #FFFFFF 37.9%, #FCFF5C 37.9%, #FCFF5C 91.11%);
+        background: linear-gradient(185deg, #ffffff -36.64%, #ffffff 37.9%, #fcff5c 37.9%, #fcff5c 91.11%);
         p {
             text-align: center;
             font-weight: 600;
@@ -150,7 +186,7 @@ main {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            column-gap:120px; 
+            column-gap: 120px;
             row-gap: 1rem;
             width: 800px;
             margin-top: -2rem;
@@ -189,9 +225,9 @@ footer {
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            height:50%;
+            height: 50%;
             gap: 0;
-            svg{
+            svg {
                 transform: scale(50%);
                 margin: 0;
             }

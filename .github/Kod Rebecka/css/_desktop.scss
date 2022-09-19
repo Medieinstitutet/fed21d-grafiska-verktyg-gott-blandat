@@ -92,6 +92,21 @@ main {
                 }
             }
         }
+        .white {
+            .white-block {
+                width: 170px;
+                height: 46px;
+                p {
+                    font-size: pxToRem(24);
+                }
+            }
+            #block1 {
+                left: 46%;
+            }
+            #block2 {
+                left: 68%;
+            }
+        }
         .images-and-text-fp {
             gap: 1.5rem;
             margin-top: pxToRem(85);
