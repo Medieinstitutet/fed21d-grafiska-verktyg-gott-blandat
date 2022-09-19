@@ -26,3 +26,13 @@ function showNav(){
         line3.style.transform = "rotate(-45deg)"
     }
   };
+
+function hoverImgEnter(id){
+  let item = "#"+id.toString();
+  gsap.to(item, 0.5, {opacity:1, scaleX:1.2, scaleY:1.2, transformOrigin:"center", marginTop:0, ease:Power1.easeIn});
+};
+function hoverImgLeave(id){
+  let item = "#"+id.toString();
+  gsap.to(item, 0.5, {opacity:1, scaleX:1, scaleY:1, transformOrigin:"center", marginTop:0, ease:Power1.easeIn});
+};
+
