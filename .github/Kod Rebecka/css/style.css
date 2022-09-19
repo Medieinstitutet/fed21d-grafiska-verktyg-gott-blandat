@@ -839,6 +839,10 @@ footer ul li a {
   display: none;
 }
 
+.logoSvg {
+  display: none;
+}
+
 @media screen and (min-width: 635px) {
   header h1 .future {
     color: #242b36;
@@ -1303,6 +1307,9 @@ footer ul li a {
   main article .secondary-button {
     bottom: 9rem;
   }
+  main .brand-section {
+    position: relative;
+  }
   main .brand-section p {
     width: 61.625rem;
     margin: 3rem 0rem 0 0rem;
@@ -1359,6 +1366,22 @@ footer ul li a {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+  .logoSvg {
+    display: block;
+    width: 167px;
+    height: 152px;
+    position: absolute;
+  }
+  #logoSvg1 {
+    left: -50px;
+    bottom: 16px;
+    rotate: 58.42deg;
+  }
+  #logoSvg2 {
+    top: -1px;
+    right: 16px;
+    rotate: 180deg;
   }
 }
 /*# sourceMappingURL=style.css.map */

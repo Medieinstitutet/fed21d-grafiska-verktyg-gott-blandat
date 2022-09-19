@@ -116,6 +116,7 @@ main {
         }
     }
     .brand-section {
+        position: relative;
         p {
             width: pxToRem(986);
             margin: 3rem 0rem 0 0rem;
@@ -174,4 +175,20 @@ footer {
     button {
         align-self: center;
     }
+}
+.logoSvg{
+    display: block;
+    width: 167px;
+    height: 152px;
+    position: absolute;
+}
+#logoSvg1{
+    left:-50px;
+    bottom:16px;
+    rotate:58.42deg;
+}
+#logoSvg2{
+    top:-1px;
+    right:16px;
+    rotate: 180deg;
 }
