@@ -1,37 +1,37 @@
 h1 {
     font-family: $Inter;
     font-weight: 700;
-    font-size: 128px;
+    font-size: pxToRem(128);
     color: $maingray;
 }
 h2 {
     font-family: $Insolata;
     font-weight: 400;
-    font-size: 64px;
+    font-size: pxToRem(64);
     color: $red;
 }
 h3 {
     font-family: $Inter;
     font-weight: 700;
-    font-size: 36px;
+    font-size: pxToRem(36);
     color: $maingray;
 }
 h4 {
     font-family: $Inter;
     font-weight: 700;
-    font-size: 40px;
+    font-size: pxToRem(40);
     color: $maingray;
     text-transform: uppercase;
 }
 h5 {
     font-family: $Inter;
     font-weight: 400;
-    font-size: 32px;
+    font-size: pxToRem(32);
     color: $yellow;
 }
 p {
     font-family: $Inter;
-    font-size: 24px;
+    font-size: pxToRem(24);
     font-weight: 700;
     color: $maingray;
 }
@@ -39,7 +39,7 @@ p {
 a {
     font-family: $Insolata;
     font-weight: 400;
-    font-size: 32px;
+    font-size: pxToRem(32);
     color: #000000;
     text-decoration: none;
     &:hover {
@@ -60,7 +60,7 @@ button {
     color: $yellow;
     background-color: $maingray;
     border: 2px solid $maingray;
-    font-size: 36px;
+    font-size: pxToRem(36);
     margin-top: 4rem;
     &:hover{
         color: $maingray;
@@ -75,7 +75,7 @@ button {
     }
 }
 .secondary-button {
-    font-size: 20px;
+    font-size: pxToRem(20);
     color: $maingray;
     background-color: $yellow;
     border: 2px solid $maingray;
