@@ -1,0 +1,127 @@
+h1 {
+    font-family: $Inter;
+    font-weight: 700;
+    font-size: pxToRem(128);
+    color: $maingray;
+}
+h2 {
+    font-family: $Insolata;
+    font-weight: 400;
+    font-size: pxToRem(64);
+    color: $red;
+}
+h3 {
+    font-family: $Inter;
+    font-weight: 700;
+    font-size: pxToRem(36);
+    color: $maingray;
+}
+h4 {
+    font-family: $Inter;
+    font-weight: 700;
+    font-size: pxToRem(40);
+    color: $maingray;
+    text-transform: uppercase;
+}
+h5 {
+    font-family: $Inter;
+    font-weight: 400;
+    font-size: pxToRem(32);
+    color: $yellow;
+}
+p {
+    font-family: $Inter;
+    font-size: pxToRem(24);
+    font-weight: 700;
+    color: $maingray;
+}
+
+a {
+    font-family: $Insolata;
+    font-weight: 400;
+    font-size: pxToRem(32);
+    color: #000000;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+button {
+    width: 249px;
+    height: 51px;
+    text-transform: uppercase;
+    font-family: $Insolata;
+    font-weight: 400;
+    box-shadow: (4px 4px 0 #000);
+    cursor: pointer;
+}
+.primary-button {
+    color: $yellow;
+    background-color: $maingray;
+    border: 2px solid $maingray;
+    font-size: pxToRem(36);
+    margin-top: 4rem;
+    &:hover{
+        color: $maingray;
+        background-color: $yellow;
+        border: 2px solid $yellow;
+    }
+    &:after{
+        color: $maingray;
+        background-color: $orange;
+        border: 2px solid $orange;
+
+    }
+}
+.secondary-button {
+    font-size: pxToRem(20);
+    color: $maingray;
+    background-color: $yellow;
+    border: 2px solid $maingray;
+
+    &:hover{
+        color: $yellow;
+        background-color: $maingray;
+        border: 2px solid $maingray;
+    }
+    &:after{
+        color: $yellow;
+        background-color: $black;
+        border: 2px solid $black;
+    }
+}
+
+.cookie-button-primary{
+    color:$maingray;
+    background-color: $yellow;
+    border: 2px solid $maingray;
+    &:hover{
+        color: $yellow;
+        background-color: $maingray;
+        border: 2px solid $maingray;
+    }
+    &:after{
+        color: $yellow;
+        background-color: $black;
+        border: 2px solid $black;
+    }
+}
+
+.cookie-button-secondary{
+    color:$yellow;
+    background-color: $black;
+    border: 2px solid $yellow;
+    &:hover{
+        color: $maingray;
+        background-color: $yellow;
+        border: 2px solid $yellow;
+
+    }
+    &:after{
+        color: $yellow;
+        background-color: $orange;
+        border: 2px solid $orange;
+
+    }
+}
